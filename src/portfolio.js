@@ -7,179 +7,92 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Miftaul Mannan",
-  logo_name: "Miftaul Mannan",
+  title: "Simran Jain",
+  logo_name: "Simran Jain",
   nickname: null,
   subTitle:
-    "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
+    "An aspiring finance professional passionate about solving complex problems through data, models, and strategy.",
   resumeLink:
-    "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
-  portfolio_repository: "https://github.com/Tasin5541",
+    "https://drive.google.com/file/d/1T4YhswUpAcMrMsFUOa6mUNlvlgaUthHk/view?usp=drive_link",
+  portfolio_repository: "https://github.com/Simranj23",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Tasin5541",
+    link: "https://github.com/Simranj23",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/miftaul-mannan-tasin-566543107/",
+    link: "https://www.https://www.linkedin.com/in/simran-jain23/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link:
-      "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
     link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
+      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=simran.jain@baruchmail.cuny.edu&subject=MISSED%20CALL%20EZTRADER&body=Hello",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/tasinmiftaulmannan",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/mm_tasin/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Investment Operations | Financial Research",
       skills: [
-        "⚡ Building resposive website using NextJs and React",
-        "⚡ Implementing secure access to database",
-        "⚡ Creating application backend in .Net Core",
-        "⚡ Implementing dynamic script execution defined by user",
+        "⚡ Managing multi-asset trade reconciliations and operational risk controls",
+        "⚡ Streamlining post-trade workflows and lifecycle event tracking",
+        "⚡ Conducting financial due diligence and M&A target evaluation",
+        "⚡ Building and reviewing financial models for performance and variance analysis",
+        "⚡ Delivering data-backed market insights using Bloomberg, FactSet & Capital IQ",
+        "⚡ Supporting cross-functional teams with strategic research and reporting",
+        "⚡ Passionate about translating complex data into actionable investment insights",
       ],
       softwareSkills: [
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Excel",
+          fontAwesomeClassname: "logos:microsoft-excel",
           style: {
             color: "#61DAFB",
           },
         },
         {
-          skillName: "NextJs",
-          fontAwesomeClassname: "akar-icons:nextjs-fill",
+          skillName: "PowerPoint",
+          fontAwesomeClassname: "logos:microsoft-powerpoint",
           style: {
             color: "#626262",
           },
         },
         {
-          skillName: ".Net Core",
-          fontAwesomeClassname: "mdi:dot-net",
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
           style: {
             color: "#5C2D91",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "SQL",
+          fontAwesomeClassname: "logos:mysql",
           style: {
             color: "#339933",
           },
         },
         {
-          skillName: "Redux",
-          fontAwesomeClassname: "tabler:brand-redux",
+          skillName: "Financial Modeling",
+          fontAwesomeClassname: "fa-solid:chart-line",
           style: {
             color: "#7749bd",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Equity Research",
+          fontAwesomeClassname: "fa-solid:file-lines",
           style: {
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "devicon:typescript",
-          style: {
-            color: "#3178c6",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "teenyicons:c-sharp-solid",
-          style: {
-            color: "#953dac",
-          },
-        },
-        {
-          skillName: "MS SQL Server",
-          fontAwesomeClassname: "tabler:sql",
-          style: {
-            color: "#c42626",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "vscode-icons:file-type-mongo",
-          style: {
-            color: "#c42626",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "logos:firebase",
-          style: {
-            color: "#c42626",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "skill-icons:docker",
-          style: {
-            color: "#c42626",
-          },
-        },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "file-icons:tailwind",
-          style: {
-            color: "#38bdf8",
           },
         },
       ],
@@ -191,15 +104,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Presentation & Reporting (Excel, PPT)", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Financial Modeling & Valuation",
       progressPercentage: "70%",
     },
     {
-      Stack: "Programming",
+      Stack: "Financial Statement Analysis",
       progressPercentage: "80%",
     },
   ],
@@ -210,44 +123,32 @@ const sLanguage = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "React",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "NextJs",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "JavaScript",
+      Stack: "Due Diligence",
       progressPercentage: "80%",
     },
     {
-      Stack: "TypeScript",
-      progressPercentage: "70%",
+      Stack: "Equity & Fixed Income Concepts",
+      progressPercentage: "75%",
     },
     {
-      Stack: "Redux",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: ".Net Core",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "C#",
+      Stack: "Data Analysis",
       progressPercentage: "80%",
     },
     {
-      Stack: "SQL", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
+      Stack: "Pnl Reconciliation",
+      progressPercentage: "85%",
     },
     {
-      Stack: "CSS/SASS",
+      Stack: "Alternateive Investments",
       progressPercentage: "80%",
     },
     {
-      Stack: "NodeJs",
-      progressPercentage: "40%",
+      Stack: "Corporate Finance",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "Trade Support",
+      progressPercentage: "80%",
     },
   ],
 };
@@ -257,40 +158,32 @@ const tools = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Git",
-      progressPercentage: "80%",
+      Stack: "Microsoft Excel",
+      progressPercentage: "85%",
     },
     {
-      Stack: "Azure Services", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Docker", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Visual Studio Code", //Insert stack or technology you have experience in
-      progressPercentage: "95%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Visual Studio ", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "MS SQL Server", //Insert stack or technology you have experience in
+      Stack: "PowerPoint", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "MySQL", //Insert stack or technology you have experience in
+      Stack: "Word", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "FactSet", //Insert stack or technology you have experience in
+      progressPercentage: "75%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Bloomberg ", //Insert stack or technology you have experience in
       progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Firebase", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
+      Stack: "Capital IQ", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "MongoDB", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
+      Stack: "MySQL", //Insert stack or technology you have experience in
+      progressPercentage: "50%", //Insert relative proficiency in percentage
     },
   ],
 };
@@ -299,12 +192,12 @@ const tools = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
+      siteName: "LinkedIn",
+      iconifyClassname: "mdi:linkedin",
       style: {
-        color: "#5B4638",
+        color: "#0077B5",
       },
-      profileLink: "https://www.codechef.com/users/tasin95",
+      profileLink: "https://www.linkedin.com/in/simran-jain23",
     },
   ],
 };
@@ -312,21 +205,33 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Ahsanullah University of Science and Technology",
-      subtitle: "B.Sc. in Computer Science and Engineering",
-      logo_path: "aust_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "March 2016 - January 2021",
-      cgpa: "3.855 / 4.00",
+      title: "Zicklin School of Business, CUNY",
+      subtitle: "Master of Science in Finance | Management Science and Quantitative Methods ",
+      logo_path: "baruch_logo.png",
+      alt_name: "Baruch College",
+      duration: "August 2022 - May 2024",
+      cgpa: "3.9 / 4.0",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
-        "⚡ Placed 4th in my class.",
-        "⚡ Dean's List.",
-        "⚡ I was selected for ITEE Training Program which comprised of 20 students in the CSE department.",
-        "⚡ Elected as the team leader in all the group projects.",
+        "⚡ Specialized in Financial Modeling, Investment Research, and Risk Management.",
+        "⚡ Completed advanced coursework in Quantitative Methods, Portfolio Theory, and Corporate Finance.",
       ],
-      website_link: "http://aust.edu/",
+      website_link: "https://zicklin.baruch.cuny.edu/",
+    },
+    {
+      title: "CFA Level II Candidate",
+    },  
+    {
+      title: "University of Mumbai",
+      subtitle: "Bachelor of Commerce in Accounting and Auditing",
+      logo_path: "mumbai_university_logo.png",
+      alt_name: "University of Mumbai",
+      duration: "2014 - 2017",
+      cgpa: "3.7 / 4.0",
+      descriptions: [
+        "⚡ Studied core commerce and finance subjects including Auditing, Taxation, and Financial Accounting.",
+        "⚡ Developed strong foundations in business operations and financial documentation."
+      ],
+      website_link: "https://mu.ac.in/",
     },
   ],
 };
@@ -334,158 +239,20 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "TENCON 2021",
-      subtitle: "- Nirmal Nair",
-      logo_path: "tencon.png",
+      title: "Investment Foundations Certificate",
+      subtitle: "- CFA Institute",
+      logo_path: "cfa_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1wLzB3oGkyI4svn09Yor2sAeSF3DbPzeU/view?usp=sharing",
-      alt_name: "New Zealand",
-      color_code: "white",
+        "https://drive.google.com/file/d/1K4ikgdvNKz166_Kjx9NoCp9dKaRT2h4F/view?usp=drive_link",
+      alt_name: "CFA Institute",
+      color_code: "002244",
     },
     {
-      title: "Python Data Structures",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "michigan_logo.png",
-      certificate_link:
-        "https://coursera.org/share/259bcebba35c1ba43934608a5fab9907",
-      alt_name: "Michigan University",
+      title: "Bloomberg Market Concepts (BMC)",
+      subtitle: "- Bloomberg",
+      logo_path: "bloomberg_logo.png",
+      alt_name: "Bloomberg",
       color_code: "#2A73CC",
-    },
-    {
-      title: "Python Basics",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "michigan_logo.png",
-      certificate_link:
-        "https://coursera.org/share/39d3749b06308a77e0f596129029d4fe",
-      alt_name: "Michigan University",
-      color_code: "#2A73CC",
-    },
-
-    {
-      title: "React: The Big Picture",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qcJipEjDB3YanZor4xHpU_9BC73FuCud/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000000",
-    },
-    {
-      title: "React: Getting Started",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1LYzFiq0DDYYiDHowG4nbPjgmjCgd3QiV/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Javascript: Getting Started",
-      subtitle: "- Mark Zamoyta",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12qhxMM2DGp4YVdG9wcpFDNX7r1bjqumx/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000000",
-    },
-    {
-      title: "Designing React Components",
-      subtitle: "- Peter Kellner",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Managing React State",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Building Applications with React and Redux",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15UMAKzJq1g1cIrz-sp1Ve0efg-M-hAq1/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Using React Hooks",
-      subtitle: "- Peter Kellner",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15mPlLGrjpmkdlf3eyi7B_NLG8Wro5EEg/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Styling React Component",
-      subtitle: "- Jake Trent",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/14Wvag5M1sGzOlgWCC2PPDX4SsUkiqf72/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Testing React Components",
-      subtitle: "- Liam McLennan",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1654lPVh6R1zwSjgZjHV9gz7mgQ7wRmLm/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Server Rendering React Components",
-      subtitle: "- Daniel Stern",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/14YrLAmZlGNx2PayR0unlLjMoySL-eRG5/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Optimize Performance React",
-      subtitle: "- Hendrik Swanepoel",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15kaZAf9642Kp_LBXYeqiVSzInaz-peAi/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Node.js The Big Picture",
-      subtitle: "- Paul O'Fallon",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/16jqLAZ4rWiUmITkGGxrZb68Eo5l77UPu/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Node.js Getting Started",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/173qXhPtqI1zwSzcb487R3Ud_0j13LiDP/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Using MongoDB with Node.js",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/16za14GrABr8xBM8r8hCtag1fO2faZTD8/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
     },
   ],
 };
